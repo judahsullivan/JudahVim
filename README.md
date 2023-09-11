@@ -11,12 +11,16 @@ This is config that primarily fit my style for coding needs, and may not work fo
 
 - Neovim >= **0.8.0** (needs to be built with **LuaJIT**)
 - Git >= **2.19.0** (for partial clones support)
-- a [Nerd Font](https://www.nerdfonts.com/) **_(optional)_**
+- a [Nerd Font](https://www.nerdfonts.com/) **_(If you would like to have the icons work.)_**
 - a **C** compiler for `nvim-treesitter`. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements)
+
+# For Linux Installation🗃️
 
 ## Lets get started
 
-### First you want to back up your current config🗃️
+## Backing up the current config
+
+### linux
 
 ```
 mv ~/.config/nvim{,.bak}
@@ -31,6 +35,24 @@ mv ~/.cache/nvim{,.bak}
 
 ```
 git clone https://github.com/judahsullivan/JudahVim ~/.config/nvim
+
+```
+
+## Powershell
+
+```
+# required
+
+Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
+
+# optional but recommended
+
+Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
+
+```
+
+```
+git clone https://github.com/judahsullivan/JudahVim $env:LOCALAPPDATA\nvim
 
 ```
 
