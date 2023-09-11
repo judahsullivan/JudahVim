@@ -139,7 +139,7 @@ nvim
 - [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim) - Bridges gap b/w mason & lspconfig
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Easy way to configure lsp servers
 - [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) - Smart code autocompletion with lsp
-  [wuelnerdotexe/vim-astro](https://github.com/wuelnerdotexe/vim-astro) --Astro Snippet and file support
+- [wuelnerdotexe/vim-astro](https://github.com/wuelnerdotexe/vim-astro) --Astro Snippet and file support
 
 #### Formatting & Linting
 
