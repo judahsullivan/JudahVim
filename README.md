@@ -7,9 +7,16 @@
 
 This is config that primarily fit my style for coding needs, and may not work for everyone. I wouldn't just blindly use them. Proceed at your own risk!
 
-## Installation of my config
+## ⚡️ Requirements
 
-### First you want to Back up your current config!
+- Neovim >= **0.8.0** (needs to be built with **LuaJIT**)
+- Git >= **2.19.0** (for partial clones support)
+- a [Nerd Font](https://www.nerdfonts.com/) **_(optional)_**
+- a **C** compiler for `nvim-treesitter`. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements)
+
+## Lets get started
+
+### First you want to back up your current config🗃️
 
 ```
 mv ~/.config/nvim{,.bak}
@@ -33,6 +40,8 @@ git clone https://github.com/judahsullivan/JudahVim ~/.config/nvim
 nvim
 
 ```
+
+## Features🌹
 
 #### Plugin Manager
 
@@ -124,3 +133,6 @@ nvim
 #### NvChadTerminal
 
 - [NvChad/nvterm](https://github.com/NvChad/nvterm)
+
+Please dont hesitate to get in touch with me if you have any questions or make a issue through github!
+Also dont forget to give me a star if you like it !⭐
