@@ -1,4 +1,7 @@
-# My Neovim config "Judah Vim"
+ <div align="center">
+     <image src= "./images/judahvim.png"/>
+ </div>
+ <hr />
 
 **IMPORTANT: If you are planning to use my neovim config please note**
 
@@ -6,7 +9,7 @@ This is config that primarily fit my style for coding needs, and may not work fo
 
 ## Installation of my config
 
-** First you want to Back up your current config!**
+### First you want to Back up your current config!
 
 ```
 mv ~/.config/nvim{,.bak}
@@ -17,7 +20,7 @@ mv ~/.cache/nvim{,.bak}
 
 ```
 
-** Now lets clone the repository **
+### Now lets clone the repository
 
 ```
 git clone https://github.com/judahsullivan/JudahVim ~/.config/nvim
