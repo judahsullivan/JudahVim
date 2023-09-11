@@ -58,6 +58,10 @@ nvim
 
 ```
 
+ <div align="center">
+     <image src= "./images/judahvim-windows.png"/>
+ </div>
+
 ## Features🌹
 
 #### Plugin Manager
