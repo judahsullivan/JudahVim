@@ -14,9 +14,7 @@ This is config that primarily fit my style for coding needs, and may not work fo
 - a [Nerd Font](https://www.nerdfonts.com/) **_(If you would like to have the icons work.)_**
 - a **C** compiler for `nvim-treesitter`. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements)
 
-# For Linux Installation🗃️
-
-## Lets get started
+# For Linux and Powershell Installation🗃️
 
 ## Backing up the current config
 
@@ -41,15 +39,12 @@ git clone https://github.com/judahsullivan/JudahVim ~/.config/nvim
 ## Powershell
 
 ```
-# required
-
 Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
-
-# optional but recommended
-
 Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
 
 ```
+
+### Now lets clone the repository
 
 ```
 git clone https://github.com/judahsullivan/JudahVim $env:LOCALAPPDATA\nvim
