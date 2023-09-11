@@ -102,8 +102,20 @@ return {
 
     -- configure astro form server
     lspconfig["astro"].setup({
+      cmd = { "astro-ls", "--stdio" },
+      filetypes = { "astro" },
       capabilities = capabilities,
       on_attach = on_attach,
+      docs = {
+        description = "https://github.com/withastro/language-tools",
+        root_dir = [[root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git")]],
+      },
+      init_options = {
+        configuration = {
+          astro = {},
+          typescript = {},
+        },
+      },
     })
 
     -- configure prisma orm server
