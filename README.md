@@ -64,6 +64,10 @@ nvim
 
 - [folke/lazy.nvim](https://github.com/folke/lazy.nvim) - Amazing plugin manager
 
+#### Alpha
+
+- [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim) - Useful lua functions other plugins use -[Text to ASCII generator](http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Type%20Somethin)
+
 #### Dependency For Other Plugins
 
 - [nvim-lua/plenary](https://github.com/nvim-lua/plenary.nvim) - Useful lua functions other plugins use

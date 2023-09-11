@@ -7,6 +7,7 @@ return {
     local dashboard = require("alpha.themes.dashboard")
 
     -- Set header
+    -- If you would like to add your own custom Header you can go here at http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Type%20Somethin
     dashboard.section.header.val = {
 
       "       ██╗██╗   ██╗██████╗  █████╗ ██╗  ██╗██╗   ██╗██╗███╗   ███╗    ",
@@ -16,7 +17,7 @@ return {
       "  ╚█████╔╝╚██████╔╝██████╔╝██║  ██║██║  ██║ ╚████╔╝ ██║██║ ╚═╝ ██║    ",
       "   ╚════╝  ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚═╝╚═╝     ╚═╝    ",
       "                                                                      ",
-      "                  Built with Lazy💤 Plugin Manager!                   ",
+      "                  Built with the Lazy💤 Plugin Manager!                   ",
     }
 
     -- Set menu
