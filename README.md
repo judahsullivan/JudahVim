@@ -66,7 +66,8 @@ nvim
 
 #### Alpha
 
-- [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim) - Useful lua functions other plugins use -[Text to ASCII generator](http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Type%20Somethin)
+- [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim) - Useful lua functions other plugins use
+- [Text to ASCII generator](http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Type%20Somethin) - Link to create your own Ascii header art from text
 
 #### Dependency For Other Plugins
 
