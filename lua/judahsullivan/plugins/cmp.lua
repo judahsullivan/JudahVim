@@ -19,6 +19,10 @@ return {
 
     -- loads vscode style snippets from installed plugins (e.g. friendly-snippets)
     require("luasnip.loaders.from_vscode").lazy_load()
+    -- loads the tailwind colorizer
+    require("cmp").config.formatting = {
+      format = require("tailwindcss-colorizer-cmp").formatter,
+    }
 
     cmp.setup({
       completion = {

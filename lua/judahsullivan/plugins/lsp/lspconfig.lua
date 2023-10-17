@@ -99,6 +99,23 @@ return {
       capabilities = capabilities,
       on_attach = on_attach,
     })
+    --eslint
+    lspconfig["eslint"].setup({
+      on_attach = on_attach,
+      capabilities = capabilities,
+      filetypes = {
+        "javascript",
+        "javascriptreact",
+        "javascript.jsx",
+        "typescript",
+        "typescriptreact",
+        "typescript.tsx",
+        "vue",
+        "svelte",
+        "astro",
+      },
+      cmb = { "vscode-eslint-language-server", "--stdio" },
+    })
 
     -- configure astro form server
     lspconfig["astro"].setup({
@@ -106,15 +123,12 @@ return {
       filetypes = { "astro" },
       capabilities = capabilities,
       on_attach = on_attach,
-      docs = {
-        description = "https://github.com/withastro/language-tools",
-        root_dir = [[root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git")]],
-      },
+      root_dir = function(fname)
+        return lspconfig.util.root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git")(fname)
+          or vim.fn.getcwd()
+      end,
       init_options = {
-        configuration = {
-          astro = {},
-          typescript = {},
-        },
+        typescript = {},
       },
     })
 
@@ -135,7 +149,7 @@ return {
     lspconfig["emmet_ls"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
-      filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
+      filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte", "astro" },
     })
 
     -- configure python server

@@ -6,4 +6,6 @@ return {
   "inkarkat/vim-ReplaceWithRegister", -- replace with register contents using motion (gr + motion)
 
   "wuelnerdotexe/vim-astro", --Astro Snippet and file support
+
+  "MunifTanjim/eslint.nvim", --eslint
 }
